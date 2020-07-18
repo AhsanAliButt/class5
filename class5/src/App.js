@@ -5,13 +5,13 @@ import CounterContext from './CounterContext';
 
 function App() {
   //let [count, Setcount]=useState(30)
-  let countState=useState(25)
+  let countState=useState(1)
   return (
     <CounterContext.Provider value={countState}>
       <div>
-      <h1>Hellow World</h1>
+      <h5>Hellow World</h5>
       <Parent name="Ahsan"/>
-        <h3>PIAIC TEACHERS ARE BEST</h3>
+        <h5>PIAIC TEACHERS ARE BEST</h5>
       </div>
     </CounterContext.Provider>
   
